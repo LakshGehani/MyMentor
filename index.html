@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MyMentor</title>
+
+	<!-- 
+		- favicon
+	-->
+
+
+	<!-- 
+		- custom css link
+	-->
+	<link rel="stylesheet" href="./assets/css/style.css">
+
+	<!-- 
+		- google font link
+	-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="top" bgcolor="white">
+
+	<!-- 
+		- #HEADER
+	-->
+
+	<header>
+
+		<div class="container">
+
+			<a href="#" class="logo">
+				<img src="#" alt="Pod logo">
+			</a>
+
+			<nav class="navbar" data-navbar>
+
+				<button class="nav-close-btn" data-nav-close-btn>
+					<ion-icon name="close-outline"></ion-icon>
+				</button>
+
+				<ul class="navbar-list">
+
+					<li>
+						<a href="#home" class="navbar-link">Home</a>
+					</li>
+
+					<li>
+						<a href="#features" class="navbar-link">Features</a>
+					</li>
+
+					<li>
+						<a href="#overview" class="navbar-link">About</a>
+					</li>
+
+					<li>
+						<a href="#pricing" class="navbar-link">Pricing</a>
+					</li>
+
+					<li>
+						<button class="btn-primary"><a href="#overview-content" class="start-btn">Get
+								started</a></button>
+
+					</li>
+
+				</ul>
+
+			</nav>
+
+			<button class="nav-open-btn" data-nav-open-btn>
+				<ion-icon name="menu"></ion-icon>
+			</button>
+
+		</div>
+
+	</header>
+
+
+
+
+
+	<main>
+
+		<article class="container">
+
+			<!-- 
+				- #HERO
+			-->
+
+			<section class="hero" id="home">
+
+				<div class="hero-content">
+					<h1 class="h1 hero-title">The most powerful audio streamer for devices</h1>
+
+					<a href="#mailing-list"><button class="btn-primary">Sign Up</button></a>
+				</div>
+
+				<figure class="hero-banner"></figure>
+
+			</section>
+
+
+
+
+
+
+			<!-- 
+				- #FEATURES
+			-->
+
+			<section class="features" id="features">
+
+				<ul class="features-list features-list-left">
+					<li class="features-item">
+						<h3 class="h3 features-item-title">Bite-sized</h3>
+						<p class="features-item-text">Audio is broken down into 15 minute chunks, making it easy to
+							listen on the
+							go. Listen while you cook, walk the dog, or commute.</p>
+					</li>
+
+					<li class="features-item">
+						<h3 class="h3 features-item-title">Personalized</h3>
+						<p class="features-item-text">Content that is tailor-made for you, with information relevant to
+							your career,
+							interests, and personal goals. Choose your preferred delivery voice and style.</p>
+					</li>
+				</ul>
+
+				<figure class="feature-banner">
+					<img src="./assets/images/feature-banner-bg.png" alt="circle audio waveform"
+						class="feature-banner-bg">
+					<img src="./assets/images/feature-banner.png" alt="pod app" class="banner-img">
+				</figure>
+
+				<ul class="features-list features-list-right">
+					<li class="features-item">
+						<h3 class="h3 features-item-title">Interactive</h3>
+						<p class="features-item-text">Curious to learn more about [insert switching topics here]? Ask
+							and have the
+							narrator expand on the topic in real-time.</p>
+					</li>
+
+					<li class="features-item">
+						<h3 class="h3 features-item-title">Your Fourth Feature Title</h3>
+						<p class="features-item-text">Description of your fourth feature.</p>
+					</li>
+				</ul>
+
+			</section>
+
+
+
+
+			<!-- 
+    - #PRICING
+-->
+
+			<header>
+				<h1 class="pricing" id="pricing">Our Pricing</h1>
+				<div class="toggle">
+					<label>Annually </label>
+					<div class="toggle-btn">
+						<input type="checkbox" class="checkbox" id="checkbox" />
+						<label class="sub" id="sub" for="checkbox">
+							<div class="circle"></div>
+						</label>
+					</div>
+					<label> Monthly</label>
+				</div>
+			</header>
+			<div class="cards">
+				<div class="card shadow">
+					<ul class="pricing-list">
+						<li class="pack">Basic</li>
+						<li id="basic" class="price bottom-bar">Free</li>
+						<li class="bottom-bar">Lorem, ipsum.</li>
+						<li class="bottom-bar">Lorem, ipsum.</li>
+						<li class="bottom-bar">Lorem ipsum dolor sit.</li>
+						<li><button class="btn">Learn More</button></li>
+					</ul>
+				</div>
+				<div class="card shadow">
+					<ul class="pricing-list">
+						<li class="pack">Professional</li>
+						<li id="professional" class="price bottom-bar">&dollar;2.99</li>
+						<li class="bottom-bar">Lorem ipsum dolor sit.</li>
+						<li class="bottom-bar">Lorem ipsum dolor sit.</li>
+						<li class="bottom-bar">Lorem ipsum dolor sit.</li>
+						<li><button class="btn">Learn More</button></li>
+					</ul>
+				</div>
+			</div>
+
+
+
+
+			<!-- 
+				- #OVERVIEW
+			-->
+
+			<section class="overview" id="overview">
+
+				<div class="overview-card">
+
+					<figure class="overview-banner">
+						<img src="./assets/images/overview-banner.png" alt="overview banner">
+					</figure>
+
+					<div class="overview-content" id="overview-content">
+
+						<h2 class="h2 overview-title">Enjoy audio everywhere!</h2>
+
+						<p class="overview-text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis ab, ducimus ex dicta
+							quisquam suscipit.
+						</p>
+
+						<ul class="overview-list">
+
+							<li class="overview-item">
+								<ion-icon name="wifi"></ion-icon>
+
+								<span>Lorem ipsum dolor sit. <strong>Lorem, ipsum.</strong></span>
+							</li>
+
+							<li class="overview-item">
+								<ion-icon name="musical-notes"></ion-icon>
+
+								<span><strong>Lorem, ipsum.</strong> Lorem ipsum dolor sit amet consectetur.</span>
+							</li>
+
+							<li class="overview-item">
+								<ion-icon name="star"></ion-icon>
+
+								<span><strong>Lorem, ipsum.</strong> Lorem ipsum dolor sit.</span>
+							</li>
+
+						</ul>
+
+					</div>
+
+				</div>
+
+			</section>
+
+
+
+
+
+			<!-- 
+				- #Mailing list
+			-->
+			<div class="mailing-list" id="mailing-list">
+				<h3>Subscribe to Our Newsletter</h3>
+				<form action="your-mailchimp-or-other-provider-link" method="post" target="_blank">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required>
+					<button type="submit">Subscribe</button>
+				</form>
+			</div>
+
+
+
+
+
+
+
+			<!-- 
+		- #FOOTER
+	-->
+
+			<footer>
+
+				<div class="container">
+
+					<div class="footer-brand">
+
+						<a href="#" class="footer-logo">
+							<img src="#" alt="pod logo">
+						</a>
+
+						<p>Follow us on</p>
+
+						<ul class="social-list">
+
+							<li>
+								<a href="#" target="_blank" class="social-link">
+									<ion-icon name="logo-youtube"></ion-icon>
+								</a>
+							</li>
+
+							<li>
+								<a href="#" target="_blank" class="social-link">
+									<ion-icon name="logo-github"></ion-icon>
+								</a>
+							</li>
+
+							<li>
+								<a href="#" target="_blank" class="social-link">
+									<ion-icon name="logo-twitter"></ion-icon>
+								</a>
+							</li>
+
+							<li>
+								<a href="#" target="_blank" class="social-link">
+									<ion-icon name="logo-instagram"></ion-icon>
+								</a>
+							</li>
+
+						</ul>
+
+					</div>
+
+					<div class="footer-link-box">
+
+						<ul class="footer-list">
+
+							<li>
+								<h3 class="h5 footer-item-title">Company</h3>
+							</li>
+
+							<li>
+								<a href="#" class="footer-link">About Us</a>
+							</li>
+
+							<li>
+								<a href="#" class="footer-link">Features</a>
+							</li>
+
+							<li>
+								<a href="#" class="footer-link">Pricing</a>
+							</li>
+
+						</ul>
+
+						<ul class="footer-list">
+
+							<li>
+								<h3 class="h5 footer-item-title">Products</h3>
+							</li>
+
+							<li>
+								<a href="#" class="footer-link">Blog</a>
+							</li>
+
+							<li>
+								<a href="#" class="footer-link">Help Center</a>
+							</li>
+
+							<li>
+								<a href="#" class="footer-link">Contact</a>
+							</li>
+
+						</ul>
+
+						<ul class="footer-list">
+
+							<li>
+								<h3 class="h5 footer-item-title">Resources</h3>
+							</li>
+
+							<li>
+								<a href="#" class="footer-link">FAQ’S</a>
+							</li>
+
+							<li>
+								<a href="#" class="footer-link">Testimonial</a>
+							</li>
+
+							<li>
+								<a href="#" class="footer-link">Terms & Conditions</a>
+							</li>
+
+						</ul>
+
+						<div class="footer-btn-group">
+							<a href="#">
+								<img src="./assets/images/footer-1.png" alt="apple store">
+							</a>
+
+							<a href="#">
+								<img src="./assets/images/footer-2.png" alt="google play store">
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+
+				<p class="copyright">&copy; Copyrights 2023 MyMentor All rights reserved.</p>
+
+			</footer>
+
+
+
+
+
+			<!-- 
+		- #GO TO TOP
+	-->
+
+			<a href="#top" class="go-top" data-go-top>
+				<ion-icon name="chevron-up"></ion-icon>
+			</a>
+
+
+
+
+
+			<!-- 
+		- custom js link
+	-->
+			<script src="./assets/js/script.js"></script>
+
+			<!-- 
+		- ionicon link
+	-->
+			<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
