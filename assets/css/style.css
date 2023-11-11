@@ -1075,6 +1075,7 @@ footer .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: -20px;
   }
   .card {
     margin-bottom: 1rem;
